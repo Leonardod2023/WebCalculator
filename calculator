@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <section class="screen">
+            0
+        </section>
+
+        <section class="botoes">
+            <div class="botão-row">
+                <button class="botão clear">
+                    C
+                </button>
+
+                <button class="botão">
+                    &larr;
+                </button>
+
+                <button class="botão">
+                    &divide;
+                </button>
+            </div>
+
+            <div class="botão-row">
+                <button class="botão">
+                    7
+                </button>
+
+                <button class="botão">
+                    8
+                </button>
+
+                <button class="botão">
+                    9
+                </button>
+
+                <button class="botão">
+                    &times;
+                </button>
+            </div>
+
+                <div class="botão-row">
+                    <button class="botão">
+                        4
+                    </button>
+
+                    <button class="botão">
+                        5
+                    </button>
+
+                    <button class="botão">
+                        6
+                    </button>
+
+                    <button class="botão">
+                        &minus;
+                    </button>
+                </div>
+                
+                    <div class="botão-row">
+                        <button class="botão">
+                            1
+                        </button>
+
+                        <button class="botão">
+                            2
+                        </button>
+
+                        <button class="botão">
+                            3
+                        </button>
+
+                        <button class="botão">
+                            &plus;
+                        </button>
+                    </div>
+
+                    <div class="botão-row">
+                        <button class="botão zero">
+                            0
+                        </button>
+
+                        <button class="botão">
+                            &equals;
+                        </button>
+                    </div>
+        </section>
+    </div>
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
